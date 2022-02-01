@@ -1,0 +1,94 @@
+.cbtn {
+    position: fixed;
+    right: 50px;
+    height: 50px;
+    width: 50px;
+    bottom: 30px;
+    border-radius: 50% ;
+    outline: none;
+    box-shadow: 0 0.25em 0.25em rgb(0 0 0 / 30%);
+    border: solid transparent;
+    transition: all 0.3s ease;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+    z-index: 1000;
+    }
+
+.sky .btnimg {
+content: url('https://upload.wikimedia.org/wikipedia/commons/c/c2/Emoji_u2600.svg');
+background-color: transparent;
+background-repeat: no-repeat;
+background-size: contain;
+margin-top: 0;
+height: 100%;
+width: 130%;
+display: flex;
+justify-content: center;
+align-items: center;
+animation: rotate 5s linear infinite;
+transform: all 0.3s ease;
+}
+.cbtn {
+    background-color: #3f1866  ;
+    /* background: linear-gradient(to bottom,darkblue,rebeccapurple);
+    border: none; */
+}
+.sky .cbtn{
+background-color: white;
+}
+
+.btnimg {
+content: url('./../../public/css/btnmoon.png');
+background-repeat: round;
+height: 90%;
+width: 120%;
+margin-top: 2px;
+animation: popout 1s infinite ease; 
+/* transition: all 0.3s ease-out; */
+}
+.cbtn:hover {
+transform: scale(1.2);
+transition: all 0.3s ease-in;
+}
+.cbtn:active {
+transform: scale(0.9);
+transition: 100ms;
+transition: all 0.3s ease-in;
+}
+
+/* .cbtn:hover > .btnimg{
+transform: scale(1);
+transition: all 0.3s ease-in;
+animation: none;
+} */
+
+@keyframes popout {0%{transform:scale(0.7)}50%{transform:scale(0.9)}100%{transform:scale(0.7)}}
+
+@keyframes rotate {0%{transform: rotate(0deg);}100%{transform: rotate(360deg);}}
+
+
+
+@media screen and (max-width:400px) {
+
+
+	.cbtn{
+        right: 10px;
+    }
+    .cbtn:active{
+        transform:scale(0.7)
+    }
+    .cbtn:hover, .cbtn:focus {
+        transform: scale(1);
+    }
+}
+
+@media screen and (max-width:700px) {
+    .cbtn:hover {
+        transform: scale(1);
+    }
+    .cbtn:active{
+        transform: scale(0.8);
+    }
+    }
