@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/website-version-2/static/css/main.e6d32a0f.css",
+    "main.js": "/website-version-2/static/js/main.4af3ba47.js",
+    "static/media/btnmoon.png": "/website-version-2/static/media/btnmoon.8129ab9835404e1ce67b.png",
+    "index.html": "/website-version-2/index.html",
+    "main.e6d32a0f.css.map": "/website-version-2/static/css/main.e6d32a0f.css.map",
+    "main.4af3ba47.js.map": "/website-version-2/static/js/main.4af3ba47.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e6d32a0f.css",
+    "static/js/main.4af3ba47.js"
+  ]
+}
