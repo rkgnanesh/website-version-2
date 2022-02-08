@@ -71,10 +71,10 @@ function Contact({theme}) {
             <img alt="png" className="pngs" src="https://cdn-icons-png.flaticon.com/512/25/25231.png"></img></a>
           </li>
           <li><a href="https://www.twitter.com" className="contact-icon">
-            <img alt="png" className="pngs" src="http://assets.stickpng.com/images/580b57fcd9996e24bc43c53e.png"></img></a>
+            <img alt="png" className="pngs" src="css/twitter-icon.png"></img></a>
           </li>
           <li><a href="https://www.facebook.com" className="contact-icon">
-            <img alt="png" className="pngs" src="http://www.cdu-bechtolsheim.de/wp-content/uploads/2019/03/sm_5a9794da1b10e.png"></img></a>
+            <img alt="png" className="pngs" src="css/fb-icon.png"></img></a>
           </li>       
         </ul>
         <hr className="hr"/>
