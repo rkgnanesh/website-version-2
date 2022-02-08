@@ -6,7 +6,7 @@ import './slide.css'
 
 const cards = [
     'https://cdn-icons-png.flaticon.com/512/2620/2620735.png',
-  'https://p.kindpng.com/picc/s/127-1272405_gst-web-developer-web-application-icon-hd-png.png',
+  'css/serverside.png',
   'https://www.seekpng.com/png/detail/674-6743907_favorite-database-icon.png'
 ]
 
